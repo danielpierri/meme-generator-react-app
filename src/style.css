@@ -151,3 +151,28 @@ main {
 .top {
   top: 0;
 }
+
+@media (max-width: 33.125em) {
+  .header--container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .header--logo--container {
+    padding-top: 1em;
+    flex-direction: column;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .form--button {
+    padding: .35em;
+  }
+}
